@@ -4,3 +4,5 @@ target
 core/target
 bundle/target
 *.DS_Store
+.ensime
+.ensime_cache
