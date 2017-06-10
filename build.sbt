@@ -9,7 +9,7 @@ organization := "io.scalac"
 scalacOptions ++= Seq("-deprecation", "-feature")
 
 libraryDependencies ++= {
-  val akkaVersion = "2.3.9"
+  val akkaVersion = "2.5.2"
   Seq(
     "org.mockito" % "mockito-core" % "2.8.9",
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,

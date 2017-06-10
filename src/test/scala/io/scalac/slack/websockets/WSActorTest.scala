@@ -21,7 +21,7 @@ object WSActorTest {
     wse ! WebSocket.Send(rock)
     Thread.sleep(2000L)
     wse ! WebSocket.Release
-    system.shutdown()
+    system.terminate()
     Thread.sleep(1000L)
   }
 
