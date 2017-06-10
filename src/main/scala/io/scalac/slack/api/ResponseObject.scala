@@ -1,5 +1,6 @@
 package io.scalac.slack.api
 
+import scala.language.implicitConversions
 import io.scalac.slack.models.{Channel, DirectChannel, SlackUser}
 
 sealed trait ResponseObject

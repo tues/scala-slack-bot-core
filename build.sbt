@@ -6,6 +6,8 @@ scalaVersion := "2.11.6"
 
 organization := "io.scalac"
 
+scalacOptions ++= Seq("-deprecation", "-feature")
+
 libraryDependencies ++= {
   val akkaVersion = "2.3.9"
   Seq(
