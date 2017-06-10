@@ -23,9 +23,9 @@ libraryDependencies ++= {
     "org.joda" % "joda-convert" % "1.8.1",
     "org.scalatest" %% "scalatest" % "3.0.3" % "test",
     "log4j" % "log4j" % "1.2.17",
-    "com.typesafe.slick" %% "slick" % "2.1.0",
     "org.slf4j" % "slf4j-api" % "1.7.25",
     "org.slf4j" % "slf4j-log4j12" % "1.7.25",
+    "com.typesafe.slick" %% "slick" % "3.2.0",
     "com.h2database" % "h2" % "1.4.195"
   )
 }
